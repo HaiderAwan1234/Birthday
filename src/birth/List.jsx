@@ -3,6 +3,7 @@ import { FaTrashAlt } from "react-icons/fa";
 import { Data } from "./data";
 
 const List = ({ id, name, age, image, r }) => {
+  console.log(Data);
   return (
     <>
       <div className="list flex justify-between items-center w-full px-4 py-1">
